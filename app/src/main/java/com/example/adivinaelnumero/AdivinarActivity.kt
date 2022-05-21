@@ -51,7 +51,6 @@ class AdivinarActivity : AppCompatActivity() {
         sonidoRespuestaIncorrecta.release()
     }
 
-
     fun reproduceMusica(){
         musicaFondo.isLooping = true
         musicaFondo.setVolume(0.5f,0.5f)
